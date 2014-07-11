@@ -17,6 +17,7 @@ function attachCheerioToResponse(hyperquext) {
     var req = consumeForcedOption(attachBodyToResponse(hyperquext), 'body')(uri, opts, cb);
     getFinalRequestFromHyperquext(req, function (err, finalRequest) {
       getResponseFromClientRequest(finalRequest, function (err, res) {
+        if (res.cheerio) return;
         finalRequest.res.cheerio = cheerio.load(res.body);
       })
     })

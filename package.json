@@ -1,0 +1,28 @@
+{
+  "name": "hyperquext-cheerio",
+  "version": "0.0.1",
+  "main": "./hq-cheerio.js",
+  "description": "Attach Cheerio to your response object.",
+  "homepage": "https://github.com/tounano/hyperquext-cheerio/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "request",
+    "hyperquext",
+    "cheerio"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/hyperquext-cheerio"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "hyperquext": "latest",
+    "cheerio": "latest"
+  }
+}

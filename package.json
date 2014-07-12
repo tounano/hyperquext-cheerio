@@ -1,6 +1,6 @@
 {
   "name": "hyperquext-cheerio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./hq-cheerio.js",
   "description": "Attach Cheerio to your response object.",
   "homepage": "https://github.com/tounano/hyperquext-cheerio/",
